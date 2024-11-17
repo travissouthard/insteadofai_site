@@ -1,9 +1,57 @@
 body {
     max-width: 800px;
     margin: 0 auto;
+    padding: 8px;
     font-family: sans-serif;
 }
 
 h1, h2 {
     text-align: center;
+}
+
+h1 {
+    vertical-align: middle;
+}
+
+h3 {
+    border-top: 1px dotted black;
+    padding-top: 32px;
+}
+
+a, a:visited {
+    color: navy;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+figure {
+    border: 1px dashed black;
+}
+
+blockquote {
+    font-size: 2em;
+}
+
+figcaption {
+    text-align: right;
+    padding: 0 8px 8px 0
+}
+
+summary {
+    margin-bottom: 8px;
+    border: 1px dotted black;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+details p {
+    padding-left: 16px;
+}
+
+footer {
+    padding-top: 16px;
 }
